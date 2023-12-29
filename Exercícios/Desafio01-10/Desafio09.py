@@ -1,3 +1,22 @@
 n = int(input('Digite um número qualquer: '))
-t = (n*1, n*2, n*3, n*4, n*5, n*6, n*7, n*8, n*9, n*10)
-print('Tabuada de {}: 0:nx1=, 1:nx2=, nx3={2}, nx4={3}, nx5={4}, nx6={5}, nx7={6}, nx8={7}, nx9={8}, nx10+{9}' .format(n, t))
+t1 = n*1
+t2 = n*2
+t3 = n*3
+t4 = n*4
+t5 = n*5
+t6 = n*6
+t7 = n*7
+t8 = n*8
+t9 = n*9
+t10 = n*10
+print('Tabuada de {}: ' .format(n))
+print('{} x 1 = {}' .format(n, t1))
+print('{} x 2 = {}' .format(n, t2))
+print('{} x 3 = {}' .format(n, t3))
+print('{} x 4 = {}' .format(n, t4))
+print('{} x 5 = {}' .format(n, t5))
+print('{} x 6 = {}' .format(n, t6))      
+print('{} x 7 = {}' .format(n, t7))
+print('{} x 8 = {}' .format(n, t8))
+print('{} x 9 = {}' .format(n, t9))
+print('{} x 10 = {}' .format(n, t10))
