@@ -1,5 +1,6 @@
 #Desafio11
 
-a = int(input('Altura: '))
 l = int(input('Largura: '))
-ar = l
+a = int(input('Altura: '))
+ar = l*a
+lt = 
