@@ -1,6 +1,8 @@
 #Desafio11
 
-l = int(input('Largura: '))
-a = int(input('Altura: '))
+l = float(input('Largura: '))
+a = float(input('Altura: '))
 ar = l*a
-lt = 
+print('Sua parede tem a dimensão de {} x {} e sua área é de {}m².' .format(l, a, ar))
+li = ar/2
+print('Para pintar sua parede, você precisará de {} l de tinta.' .format(li))
