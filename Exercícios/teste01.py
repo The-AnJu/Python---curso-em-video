@@ -1,4 +1,4 @@
-nome = input('nome?')
-idade = input('idade')
-peso = input('peso?')
-print(nome, idade, peso)
+from math import isqrt
+import math
+
+blabla = input('Escreva qualquer coisa: ')
